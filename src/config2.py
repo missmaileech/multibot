@@ -1,0 +1,9 @@
+import os
+
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7342156400:AAHg7D7pt8cdlATo0tQ1sVCNyaeZkcI2osE")
+API_ID = int(os.environ.get("API_ID", "22518295"))
+API_HASH = os.environ.get("API_HASH", "4ec4789e7af4207606a3d087923899f1")
+OWNER_ID = int(os.environ.get("OWNER_ID", "1077671360"))
+SESSION = os.environ.get("SESSION", "BQFXmhcAPwlDSC0QtqRyuAWFtMlmvhM5dJTpyBQPs5p3V7KdNQamT9XyE1Qjxs6naKnhsFFh-AH4Fvf_5Y6U5yarDib4UN1rdnrkm2QSlK8WmmSedVVs95zHPA_NI9pEuRK44_fJ7SYBBaWhZZHQG0URRglbyQhvdivQ4M75YMDC-fr_KgfIe74DgRK4A3YRylq0-OhUr2K6XT3oT54mh2Og5KKsWaBUqnplYPO9k7fHuz8OGnBe1ODOR3Hq4K5w_YlroVrq5Xw3YKjLsLixwufv7mP-AyxiSPspgg1hC1w0JGSeZLaVlYN4S8sG3mvu9XTmzleTw1FnN596HzKXS9FJM4KEugAAAABAO_XAAA")
+FORCESUB = os.environ.get("FORCESUB", "0")
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
